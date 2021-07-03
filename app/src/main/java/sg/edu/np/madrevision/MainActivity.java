@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("Debug","create");
-
+        //try again
         Intent rec = getIntent();
         int value = rec.getIntExtra("id",0);
         /* practical 2
