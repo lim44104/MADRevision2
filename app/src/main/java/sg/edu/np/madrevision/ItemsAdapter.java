@@ -15,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import static android.content.ContentValues.TAG;
+
 public class ItemsAdapter extends RecyclerView.Adapter<ItemViewHolder> {
     ArrayList<User> data;
 

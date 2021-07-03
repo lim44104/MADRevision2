@@ -22,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("Debug","create");
 
+        //Hello Try
+        //try2
         Intent rec = getIntent();
         int value = rec.getIntExtra("id",0);
+        Log.d(TAG, "position= " + value);
         /* practical 2
         //name and description are loaded from the User object.
         u = new User();
