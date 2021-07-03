@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Debug","create");
 
         //Hello Try
+        //try2
         Intent rec = getIntent();
         int value = rec.getIntExtra("id",0);
         Log.d(TAG, "position= " + value);
